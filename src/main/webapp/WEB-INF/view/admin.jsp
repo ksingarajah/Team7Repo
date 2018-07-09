@@ -29,7 +29,62 @@
 <html>
 <head>
   <title>Admin</title>
-  <link rel="stylesheet" href="/css/main.css">
+
+
+  <style>
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      line-height: 1.6;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #444;
+      background-color: #eeeeee;
+    }
+
+    nav {
+      background-color: #283593;
+    }
+
+    nav a {
+      color: white;
+      display: inline-block;
+      font-size: 24px;
+      margin: 15px;
+      text-decoration: none;
+    }
+
+    #navTitle {
+      font-size: 36px;
+    }
+
+    #container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+    }
+
+    h1 {
+      color: #757575;
+    }
+
+    input {
+      font-size: 18px;
+    }
+
+    button {
+      font-size: 18px;
+    }
+
+    .stat-information {
+      width:75%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 50px;
+    }
+
+  </style>
 </head>
 <body>
 

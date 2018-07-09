@@ -13,7 +13,6 @@ import org.jsoup.safety.Whitelist;
 
 
 public class ProfileServlet extends HttpServlet  {
-
     /**
      * Store class that gives access to Users.
      */

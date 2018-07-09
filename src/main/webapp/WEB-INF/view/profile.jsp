@@ -27,6 +27,9 @@
 </nav>
 
 <div id="container">
+    <%
+        String value = (String) request.getAttribute("color");
+    %>
     <h1><%= request.getSession().getAttribute("user") %>'s Profile page </h1>
     <!--About Section -->
     <h3>Summary</h3>
@@ -35,7 +38,7 @@
     <br>
     <br>
     <br>
-    <h3> Edit Summary</h3>
+    <h3> Edit Summary:  <%=value%></h3>
 
     <form action="/profile" method="POST">
         <label for="description">Summary</label>
